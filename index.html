@@ -15,7 +15,7 @@
 
 <body>
     <div class="container">
-        <header>
+        <header id="home">
             <div class="hamburguer">
                 <div class="line" id="line1"></div>
                 <div class="line" id="line2"></div>
@@ -35,11 +35,11 @@
             <aside class="sidebar">
                 <nav>
                     <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Projeto</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                        <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#conhecimento" class="menu-link">Conhecimento</a></li>
+                        <li class="menu-item"><a href="#projeto" class="menu-link">Projeto</a></li>
+                        <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                        <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                     </ul>
                 </nav>
                 <div class="social-midia">
@@ -50,7 +50,7 @@
             </aside>
         </header>
         <main>
-            <section class="sessao-conhecimento">
+            <section id="conhecimento" class="sessao-conhecimento">
                 <div class="sessao-header">
                     <h1>Conhecimentos</h1>
                 </div>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </section>
-            <section class="sessao-projeto">
+            <section id="projeto" class="sessao-projeto">
                 <div class="sessao-header">
                     <h1>Projetos</h1>
                 </div>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </section>
-            <section class="sessao-contato">
+            <section id="contato" class="sessao-contato">
                 <div class="contato-wrapper">
                     <div class="contato-left"></div>
                     <div class="contato-right">
@@ -216,7 +216,7 @@
                     </div>
                 </div>
             </section>
-            <section class="sessao-orcamento">
+            <section id="orcamento" class="sessao-orcamento">
                 <div class="orcamento-wrapper">
                     <h1>Faça um orçamento</h1>
                     <form action="">
@@ -242,7 +242,20 @@
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, JLPena - Todos os diretos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></i></a></li>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
     <script src="js/script.js"></script>
 </body>
